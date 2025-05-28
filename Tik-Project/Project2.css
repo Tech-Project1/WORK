@@ -255,6 +255,17 @@ p{
     top: 3600px
 }
 
+.Paula{
+    animation: Blur both;
+    animation-timeline: view();
+    font-family: "Lato", sans-serif;
+    font-size: 150px;
+    font-weight: 900;
+    margin-left: 1000px;
+    margin-top: 10px;
+    position: absolute;
+    top: 3450px
+}
 @keyframes Blur {
     from{
         filter: blur(40px);
